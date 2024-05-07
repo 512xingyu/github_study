@@ -20,7 +20,7 @@
     点击github图标显示用户动态以及关注关注用户的仓库动态，右侧显示所有git库。
 ## 8、仓库主页
     主要显示项目代码、版本、收藏/关注/fork情况
-![project.png](project.png)
+![alt text](project.png)
 ## 9、个人主页
 ![alt text](your_profile.png)
 
@@ -29,5 +29,11 @@
 
 # GIT基础设置
 ![git基本配置.png](git基本配置.png)
-## 在文件夹内初始化git(创建git仓库)
+## 在文件夹内初始化git(创建git仓库)并上传内容
     执行命令git init 会生成一个.git的隐藏文件，记录git repository的相关信息
+    执行命令git status查看当前工作区更新状态
+    git add xx 将工作区变更内容添加到暂存区
+    git commit -m '提交描述'
+    git push 上传变更内容到git仓库
+# 删除仓库文件
+![alt text](直接从仓库中删除文件.png)
